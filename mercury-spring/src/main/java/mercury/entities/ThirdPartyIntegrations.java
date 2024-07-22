@@ -1,4 +1,4 @@
-package br.org.gestao.mercury.entities;
+package mercury.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

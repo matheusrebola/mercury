@@ -1,4 +1,4 @@
-package br.org.gestao.mercury.entities;
+package mercury.entities;
 
 public enum WidgetType {
 
