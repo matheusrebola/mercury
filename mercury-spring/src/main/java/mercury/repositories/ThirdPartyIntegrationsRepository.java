@@ -1,4 +1,4 @@
-package mercury.repositorys;
+package mercury.repositories;
 
 import java.util.UUID;
 

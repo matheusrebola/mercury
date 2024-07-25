@@ -1,13 +1,13 @@
-package mercury.repositorys;
+package mercury.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import mercury.entities.DataSources;
+import mercury.entities.ErrorLogs;
 
 @Repository
-public interface DataSourcesRepository extends JpaRepository<DataSources, UUID> {
+public interface ErrorLogsRepository extends JpaRepository<ErrorLogs, UUID> {
 
 }

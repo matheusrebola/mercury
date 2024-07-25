@@ -1,13 +1,13 @@
-package mercury.repositorys;
+package mercury.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import mercury.entities.DataIngestion;
+import mercury.entities.DataSources;
 
 @Repository
-public interface DataIngestionRepository extends JpaRepository<DataIngestion, UUID>{
+public interface DataSourcesRepository extends JpaRepository<DataSources, UUID> {
 
 }
